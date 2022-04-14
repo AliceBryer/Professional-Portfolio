@@ -3,20 +3,14 @@ body {
     font-size:10px;
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color:rgb(57, 56, 56);
+    
 }
 
-/* Nav bar attempt 2 styling */
-
+/* Header styling */
 header {
     background-color: purple;
     width:100%;
 }
-
-.nav-list {
-   
-}
-
 .nav-items {
     color:whitesmoke;
     font-size:1.4rem;
@@ -30,3 +24,34 @@ header {
     align-items:center
 }
 
+/* About me styling */
+
+.about-me {
+    background-image: url(../Images/background-img-meadow.png);
+    width:100%;
+    height:25rem;
+    background-position: center;
+    background-size:cover;
+    color:whitesmoke;
+}
+
+.img-me {
+    border-radius:50%;
+    border: 6px solid rgb(125, 33, 99);
+    width: 15rem;
+    height: 15rem;
+}
+
+.img-title {
+    justify-content: center;
+}
+
+.img-title h1 {
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+
+.info-para {
+    font-size: 1.3rem;
+    text-align: right;
+}
