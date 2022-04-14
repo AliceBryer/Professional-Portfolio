@@ -10,6 +10,7 @@ body {
 header {
     background-color: purple;
     width:100%;
+    position:fixed;
 }
 .nav-items {
     color:whitesmoke;
@@ -33,6 +34,7 @@ header {
     background-position: center;
     background-size:cover;
     color:whitesmoke;
+    position:relative
 }
 
 .img-me {
@@ -54,4 +56,10 @@ header {
 .info-para {
     font-size: 1.3rem;
     text-align: right;
+    position:absolute;
+    justify-content: space-between;
+}
+
+.info-para p {
+    width:22rem;
 }
