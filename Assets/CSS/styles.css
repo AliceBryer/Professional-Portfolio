@@ -37,7 +37,8 @@ header {
     background-position: center;
     background-size:cover;
     color:whitesmoke;
-    position:relative
+    
+
 }
 
 .img-me {
@@ -45,11 +46,24 @@ header {
     border: 6px solid rgb(125, 33, 99);
     width: 15rem;
     height: 15rem;
-    margin:10px
+    margin:10px;
+    position:absolute;
+    left:20%;
+
+    
+
+    
 }
 
 .img-title {
     justify-content: center;
+    position:relative;
+    color:black;
+    font-size:2.4rem;
+    font-family:'Courier New', Courier, monospace;
+    
+    
+    
 }
 
 .img-title h1 {
@@ -59,14 +73,62 @@ header {
 
 .info-para {
     font-size: 1.3rem;
-    text-align: right;
+    text-align: center;
     margin-left:800px;
     position:absolute;
     right:40px;
-    bottom:50px
+    bottom:50px;
+    background-color:purple;
+    width:fit-content
+
    
 
 }
     .info-para p {
     width:22rem;
+}
+
+/* My work styling */
+
+.my-work {
+    background-color:blueviolet;
+    height:40rem
+}
+
+/* application styling */
+
+.project-container {
+    position:relative;
+    
+}
+.project-img {
+    width:15rem;
+    height:18rem;
+    border:dashed 5px blue
+    
+
+}
+
+.project-name {
+    background-color:green;
+    width:fit-content;
+    font-size:1.8rem;
+    font-weight:300;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.project-desc {
+    background-color: aqua;
+    width:fit-content;
+    font-size:1.6rem;
+    font-weight:200;
+    position:absolute;
+    bottom:0;
+    left:0;
+   
+
+  
+
+    
 }
