@@ -18,7 +18,7 @@ main {
 header {
     background-color: purple;
     width:100%;
-}
+ }
     
 .nav-items {
     color:whitesmoke;
@@ -102,7 +102,8 @@ header {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:center;
+    position:relative;
+    
 }
 
 .my-work h1 { 
@@ -116,7 +117,10 @@ font-family:'Courier New', Courier, monospace;
 /* application styling */
 
 .project-container {
-    position:relative;
+    position:absolute;
+    top:2rem;
+    left:3rem;
+    justify-content: space-between;
     width:20rem;
     margin:2rem;
     border:dashed 5px rgb(0, 0, 0)
@@ -141,11 +145,29 @@ font-family:'Courier New', Courier, monospace;
     letter-spacing:0.3rem;
 }
 
+.small-apps {
+    border:solid 3px rgb(0, 0, 0);
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 
 /* Contact me styling */
 
-.contact-me {
-    font-size: 3rem;
-    color: blue;
-    background-color: azure;
+footer {
+    width:100%;
+    height:8rem;
+    background-color: rgb(152, 82, 142);
+}
+
+ul li {
+    display:inline;
+    margin:3rem;
+    font-weight:2rem;
+    font-size:2rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    
 }
