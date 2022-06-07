@@ -164,3 +164,22 @@ font-family: 'Varela Round', sans-serif; */
     opacity: 0.7;
   }
 
+  /* footer styling */
+
+  .my-footer {
+      border-top:0.3rem dashed var(--tangerine);
+      margin-top:20px;
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+.lead {
+    font-family: 'Galada';
+    font-size: 20px;
+    color:var(--prussian-blue);
+    letter-spacing: 0.1em;
+    margin-left: 1rem;
+    margin-right:1rem;
+}
+
