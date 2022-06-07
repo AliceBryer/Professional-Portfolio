@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1"
+  },
+  "name": "professional-portfolio",
+  "description": "Week 2 Homework for university bootcamp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliceBryer/Professional-Portfolio.git"
+  },
+  "author": "Alice Bryer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AliceBryer/Professional-Portfolio/issues"
+  },
+  "homepage": "https://github.com/AliceBryer/Professional-Portfolio#readme"
+}
