@@ -24,7 +24,7 @@ This application has been created to showcase my work & act as my digital portfo
 
 
 ## Deployed Link
-https://alicebryer.github.io/Work-Day-Scheduler/
+https://alicebryer.github.io/Professional-Portfolio/
 
 ## Licence
 - MIT
